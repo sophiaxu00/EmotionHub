@@ -1,0 +1,237 @@
+/* overall */
+body, html {
+    font-family: Avenir;
+    height: 100%;
+}
+
+.divContents{
+    background-image: url('../image/WechatIMG40.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    text-align: right;
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#showcase {
+    text-align: right;
+}
+
+/* skip & sign out */ 
+.sign-out {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* buttons */
+.btn-group{
+    margin-left: 200px;
+    margin-right: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    padding: 16px 28px;
+    background-color:  #0dde76;
+    color: black;
+    border: 2px solid #0dde76;
+}
+
+.button1:hover {
+    background-color:white;
+    color: black;
+}
+
+.button2 {
+    padding: 16px 35px;
+    background-color: #0ddede;
+    color: black;
+    border: 2px solid #0ddede;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+.button3 {
+    padding: 16px 36px;
+    background-color: red;
+    color: black;
+    border: 2px solid red;
+}
+
+.button3:hover {
+    background-color: white;
+    color: black;
+}
+
+.button4 {
+    padding: 16px 33px;
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.button4:hover {
+    background-color: white;
+    color: black;
+}
+
+.button5 {
+    padding: 16px 30px;
+    background-color: #555;
+    color: white;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+.button6 {
+    padding: 16px 30px;
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+}
+
+.button6:hover {
+    background-color: white;
+    color: black;
+}
+
+.button7 {
+    padding: 16px 30px;
+    background-color: yellow;
+    color: black;
+    border: 2px solid yellow;
+}
+
+.button7:hover {
+    background-color: white;
+    color: black;
+}
+
+.button8:hover {
+    background-color: white;
+    color: black;
+}
+
+.button9 {
+    padding: 16px 30px;
+    background-color: brown;
+    color: white;
+    border: 2px solid brown;
+}
+
+.button9:hover {
+    background-color: white;
+    color: black;
+}
+
+.button10 {
+    padding: 16px 30px;
+    background-color: burlywood;
+    color: black;
+    border: 2px solid burlywood;
+}
+
+.button10:hover {
+    background-color: white;
+    color: black;
+}
+
+/* main header */
+#main-header{
+    background-color: grey;
+    color: #fff;
+}
+
+/* navigation bar */
+#navbar{
+    background: rgba(255, 255, 255, 0);  /* transparent background */
+    padding-top: 15px;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #373131;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+/* showcase with image background */
+#showcase{
+    background-position: center right;
+    margin-bottom: 30px; /*responsive height */
+    text-align: right;
+}
+
+#showcase h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#showcase h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#main-footer {
+    padding-top: 150px;
+}

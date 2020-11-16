@@ -1,0 +1,38 @@
+#set( $title = "Select the content of your day" )
+#set( $style = "/public/styles/color-selection.css" )
+#parse("public/templates/top.vm")
+
+#if ($userEmail)
+<div class="divContents">
+    #parse("public/templates/nav.vm")
+
+    <section id = "showcase">
+        <div class = "container">
+            <h1>Hello, $userEmail !</h1>
+            <h2>Customize your experience!</h2>
+        </div>
+    </section>
+
+    <!-- want both main and sidebar in middle so put in containtoer-->
+    <div class="btn-group">
+        <button id="cheer-up" class="button button6" onclick="selectIntention(this)">Cheer Me Up</button>
+        <button id="excite" class="button button6" onclick="selectIntention(this)">Excite Me</button>
+        <button id="laugh" class="button button7" onclick="selectIntention(this)">Make Me Laugh</button>
+        <button id="inspire" class="button button1" onclick="selectIntention(this)">Inspire Me</button>
+        <button id="motivate" class="button button1" onclick="selectIntention(this)">Motivate Me</button>
+        <button id="relax" class="button button2" onclick="selectIntention(this)">Relax</button>
+        <button id="chill" class="button button2" onclick="selectIntention(this)">Chill</button>
+        <button id="feelings" class="button button10">Care For My Feelings</button>
+    </div>
+
+    <div class="sign-out"> 
+        <button id="skip" class="button button10" onclick="selectIntention(this)">Skip</button>
+    </div>
+
+    <footer id = "main-footer">
+        <p>Copyright &copy; 2020 Intention Select</p>
+    </footer>
+</div>
+#end
+
+#parse("public/templates/bottom.vm")

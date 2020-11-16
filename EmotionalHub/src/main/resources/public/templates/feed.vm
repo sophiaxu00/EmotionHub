@@ -1,0 +1,26 @@
+#set( $title = "Your Feed" )
+#set( $style = "/public/styles/feed.css" )
+
+#parse("/public/templates/top.vm")
+#parse("public/templates/nav.vm")
+
+#if ($posts)
+    #set( $pos = 0 )
+    #set( $prompts = ["Post something new!", "Share your inspiring thoughts here!", "Share something exciting!",
+        "You could encourage someone by posting here!", "What's your favorite line?", "Tell a story!"] )
+    #foreach($post in $posts)
+        #set ($remainder = $pos % 25)
+        #if ($emptyPositions.contains($remainder))
+            #parse( "/public/templates/post.vm" )
+            #set( $pos = $pos + 1 )
+        #end
+        <!-- Note that if another empty block position immediately follows, it won't be displayed. But it's fine. -->
+        <div class="post text-center" id="${post.getPostID()}" onclick="expand('${post.getPostID()}');">
+            <span class="username">${userDao.getUserById(${post.getUserID()}).getUserName()}</span>
+            <p>${post.getContent()}</p>
+        </div>
+        #set( $pos = $pos + 1 )
+    #end
+#end
+
+#parse("/public/templates/bottom.vm")

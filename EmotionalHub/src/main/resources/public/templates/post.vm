@@ -1,0 +1,9 @@
+<div class="post form-post text-center" id="make-post-0" onclick="expand('make-post-0');">
+    #set( $idx = $pos % $prompts.size() )
+    <p>$prompts.get($idx)</p>
+    <form action="#" method="post" class="shrunken" enctype="multipart/form-data" onsubmit="handlePostInSeparateRoute(this)">
+        <textarea class="form-control" rows="5" name="content" placeholder="Your content here..."></textarea>
+        <input type="file" name="media" id="media" accept="image/*,audio/*,video/*">
+        <button class="btn-make-post btn-right" name="posted" value="true">Post</button>
+    </form>
+</div>

@@ -1,0 +1,31 @@
+#set( $title = "Your Posts" )
+#set( $style = "/public/styles/feed.css" )
+
+#parse("/public/templates/top.vm")
+#parse("public/templates/nav.vm")
+
+#if ($posts)
+    #foreach($post in $posts)
+        <div class="post text-center" id="$post.getPostID()" onclick="expand('${post.getPostID()}');">
+            <div class="view">
+                <p>${post.getContent()}</p>
+                #if ($post.getUserID().equals($userId))
+                    <button class="btn-left shrunken" name="edit" onclick=openEditor("${post.getPostID()}")>Edit</button>
+                    <button class="shrunken">s</button>
+                    <form action="#" method="post" class="shrunken">
+                        <button class="btn-right" name="delete" value="${post.getPostID()}">Delete</button>
+                    </form>
+                #end
+            </div>
+            <div class="edit hidden">
+                <form action="#" method="post">
+                    <textarea class="form-control" rows="5" name="content" style="display: block">${post.getContent()}</textarea>
+                    <button class="btn-right" name="update" value="${post.getPostID()}">Update</button>
+                </form>
+                <button class="btn-left" name="cancel" onclick=closeEditor("${post.getPostID()}")>Cancel</button>
+            </div>
+        </div>
+    #end
+#end
+
+#parse("/public/templates/bottom.vm")

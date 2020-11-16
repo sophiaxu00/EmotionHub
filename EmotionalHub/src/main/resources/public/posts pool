@@ -1,0 +1,358 @@
+tags: 
+1. Exciting
+2. Calm
+3. Inspiring, encouraging
+4. Joke, funny meme
+
+impacts/users’ intention:
+1. cheer me up 
+2. excite me
+3. Chill 
+4. relax
+5. Inspire me 
+6. motivate me
+7. Make me laugh
+8. See options
+9. Care for my emotion
+10. Skip
+
+Feelings:
+1. happiness
+2. Sadness
+3. Fear
+4. anxiety
+5. anger
+6. disappointed
+
+Matching:
+	•	cheer me up, excite me -> exciting 
+	•	chill, relax -> calm 
+	•	inspire me, motivate me -> inspiring 
+	•	make me laugh -> joke, funny meme 
+	•	see opinions (may include negative posts) 
+	•	care for my emotion -> user choose their emotion 
+	•	skip (see all contents) 
+
+Posts:
+1. when you’re proud of your buns so you post them on the internet￼
+		user: 1
+    tag: Calm
+
+2. Summers gone but the good vibes haven’t. ;)
+	⁃	user: 2
+  tag: Inspiring
+
+3. My prayers go out to Chadwick’s family and loved ones. The world will miss his tremendous talent. God rest his soul. #wakandaforever
+		user: 3
+    tag: calm
+￼
+4. Thank you everyone for the birthday wishes! It’s a wild time we live in right now, but I’m grateful to my family and friends who keep my spirit up. Love y’all 🥺❤️
+	user: 4
+  tag: exciting
+
+5.	And with that, the UC San Diego chapter of my life is finished 🌊🎓✌🏼 One month ago, I graduated from UCSD and completed my BA in International Business with a minor in Japanese Studies. Thank you to my family and friends who’ve supported me throughout college and all the struggles that came with it. It’s been a long four years, and while it may have not ended in the way that I expected, I’m grateful for everything that has led up to my final quarter. Thank you to everyone who has followed me on this journey and congrats to my friends who also graduated this year 🥰🎉
+	user: 4
+  tag 1: exciting
+  tag 2: Inspiring, encouraging
+  
+6. all this news about travel to japan makes me (︶︹︺) #covidSucks
+	user: 4
+  tag: ? calm?
+  
+7. First day of Graduate school orientation done at @usccinema. So lucky to be a Trojan at the best entertainment school in the world & fight on for the next three years! 💛❤️✌🏼
+	user: 5
+  tag: exciting
+  
+8. power of god and anime on our sides!!!!!!!! #animeexpo
+  User: 5
+￼  tag: exciting
+
+9. happy mother’s day to the one & only ruth sherlock. thanks for showing me a working mom, a businesswoman, an amazing friend, giving christian, great sister and what a strong female role model looks like all in one! 📸
+    user: 5
+    tag: Inspiring, encouraging
+
+10. Thank you to these lovely ladies for giving me the most amazing opportunity to be a Sixth College Orientation Leader. From the spring trainings to the actual orientations and Sixth Super Week, it was such a good start to my last year at UCSD.
+  user: 4
+  tag: Inspiring, encouraging
+  
+11. It was great to see my favorites from Japan again 😭 I miss you both already!!
+  user: 6
+  tag: exciting
+
+12. A trip away from the city🍃
+  user: 7
+  tag: calm
+￼ 
+13.	chicago snow has got me missing michigan fall 🍁🍂
+  user: 8
+  tag: calm
+  
+14. hey mtv welcome to my crib !💯💸⌛️📸🕹🚀🎮🏆🎱🍸🌟💋👾
+  user: 5
+￼  tag: exciting
+
+15.	"Many of my movies have strong female leads- brave, self-sufficient girls that don't think twice about fighting for what they believe with all their heart. They'll need a friend, or a supporter, but never a savior. Any woman is just as capable of being a hero as any man." ~ Hayao Miyazaki ✌🏼🌸 #explorejapan
+  user: 4
+  tag: Inspiring, encouraging
+  
+16. Welcome to Wednesday! As Bon Jovi once said: WOOOAAAHHHH! We’re halfway there!
+  User: 9
+  Tag: Joke, funny meme
+
+17. MATH: Mental Abuse To Humans.
+  User: 9
+  Tag: Joke, funny meme
+
+18. You are strong enough to face it all, even if it doesn’t feel like it right now.
+  user: 10
+  Tag: Inspiring, encouraging
+
+19. A great deal of your decisions are informed by your emotional responses because that is what emotions are designed to do: to appraise and summarize an experience and inform your actions. Hence, emotional intelligence is important in helping you become more aware of these emotional responses so that they don’t control you but rather you control them.
+	user: 11
+	tag: Inspiring, encouraging
+
+references:
+https://www.instagram.com/abby_sherlock/
+https://www.pinterest.com/pin/652388696011962456/
+https://www.pinterest.com/cghelt2/hilarious-memes/
+https://www.pinterest.com/pin/1970393575596909/
+https://www.instagram.com/prattprattpratt/
+https://www.instagram.com/eri_way/
+https://www.instagram.com/shrreyyaaa/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+May 31
+Got to know the team
+Went over Heidi’s design doc and made sure that everyone’s onboard
+Setup research TODOs for the summer and divided work
+
+Before next meeting:
+start with the TODOs 
+Bella will draw the designs
+let’s be critical; think about possible problems with the design (imagine that you are an investor and need to evaluate our idea)
+
+Note: make sure not to post our idea publicly. It’s okay to ask friends for opinions since market research is important, but please ensure public confidentiality before we finish the app. Honestly, let’s just avoid talking about it until we have a meeting on market research.
+
+
+
+Sep 10
+6 members assembled
+brainstorm
+
+
+
+Sep 20
+Hw2:
+AuthorDao - delete: Heidi
+AuthorDao - update: Jinhan 
+BookDao - add, listAll, delete: Heidi
+BookDao - update: Shravan
+DBDaoCRUDTest - whoever writes the method
+TestListAllAuthors, AllBooks - Sophia
+
+Project:
+Main Idea (draft) - Provide people with an “emotional hub” to express their thoughts and feelings and improve their general mental health
+Basic Features: 
+Content feeds
+Content upload by users
+Push content to users based on mood (how do we do that?)
+Chat rooms
+Send and receive messages
+filter or recommend the chat rooms by: location, title (search?)
+Mood/Emotion tagging (not a separate feature, applies to all content)
+Everything should be ‘emotionally conscious’; take note of what mood the user is currently in and what they are looking for, and show them content and chats similar to what they want to see
+
+Timeline:
+Collecting comments before Tuesday. (Discussion on Thursday class?)
+Make sure we are not trying to do too much (ask Darvish); narrow our focus to core components
+@Lynn and @Bella start wireframing and try to finish basics by Friday (25th)
+
+
+Sep 24
+
+iteration 1 (prof’s note: SRS, list of user stories, implement feature(s) for one other user story):
+write fake posts, build database with posts & tags
+tags: target emotion, strength, topic
+implement basic emotion selection and posting page
+
+
+post recommendation algorithm
+
+
+sentiment tagging algorithm for web-scraped data
+find dataset
+what library to use, dataset to use
+iteration 2:
+recommendation algorithm
+
+
+Sep 27
+hw3:
+delete author route (server endpoint) and its test and possibly a delAuthorCascade test
+Jinhan / Shraven
+
+project:
+name our app: 
+to be decided
+SRS
+Heidi: add user stories
+software
+Java, Gradle, sparkJava, MongoDB, Heroku
+HTML, CSS, Javascript
+class diagram
+Sophia (before 10/1)
+User - userId, email, password, userName, colorEmotionsTableId, likedPosts<List>
+Post - postId, userId(User), text, media<List>, emotionTags<List>, numComment, numLikes
+Comment - commentId, userId(User), postId(Post)
+
+Database(MongoDB) - URI, username, password
+UserDao - Database
+PostDao - Database
+CommentDao - Database
+
+Project Board
+Jinhan: fill in ToDos
+
+Wireframe
+Color <-> emotions: after color selection, the user picks an emotion, and we record the color-emotion association so that they can only choose the color next time
+
+TODO:
+establish data structures
+select emotion
+make and see posts
+
+
+Oct 1
+Update SRS: 
+Key function: track emotional status (?) 
+
+Key question to consider:
+how to detect people’s emotions and connect those to post contents
+user selects “color of their day”
+posts will be tagged with colors
+tag manually to begin with; train a simple text-to-color model once we have enough data (1k maybe?)
+user can correct the color of the posts they see
+modify the user’s unique text-to-color model when they do so
+how to show posts that a person choosing a specific color would like to see
+if the user selects a negative color, show posts on the other side of the spectrum
+otherwise, show some mix of positive (bright, by default) colors
+avoid showing negative-colored (dark, by default) posts
+
+
+Oct 4
+Instead of using emotion-based, use intention-based (include “care for my emotion,” “cheer me up,” “make me calm,” etc)
+if the user selects “care for my emotion” as intention / impact, let them choose an emotion, and make feeds based on their emotion
+otherwise, make feeds based on their intention
+tag for both intention and feeling
+model for both intention and feeling?
+
+Oct 8
+intentions that we want to include
+cheer me up, excite me -> exciting
+chill, relax -> calm
+inspire me, motivate me -> inspiring
+make me laugh -> joke, funny meme
+see opinions (may include negative posts)
+
+care for my emotion -> user choose their emotion
+skip (see all contents)
+
+match the posts’ emotion tags with the intentions
+
+
+
+predict emotions from posts
+what emotions do we want?
+
+Forums
+discussion boards
+
+
+Oct  11
+homework 5
+1: Sophia
+2: Jinhan
+3: Shravan + Bella
+4: Heidi
+
+Algorithm:
+Tag posts with emotions; map emotion tags to user intentions
+
+Deadline for finding a dataset
+Wed, Oct 14
+
+
+Oct 15
+fix issues with iteration 1
+
+
+Oct 18
+See notes in the emotion study file
+
+Oct 25
+Hw6:
+part1 postgres for Author (done) - Heidi
+part1 postgres for Book - Shravan
+part2 automated workflow - Jinhan
+
+Project:
+models
+tags: both intentions and emotion tags, with an algorithm that associates emotions with intentions
+Empty post blocks: “can you post something exciting” (or encouraging, etc)
+
+Oct 29
+TODO:
+enhance security approaches
+
+README: create a testing account (done) 
+Landing page functionalities 
+	diff post for diff intentions 
+add feed link 
+Post page front-end 
+Aggregating constant feeds from external sources
+
+consider: constantly getting posts?
+
+Let tagging model run on another thread
+socket programming
+web workers?
+
+
+Nov 1
+TODOs:
+Model compression? Do a simpler model?
+Big problem: deployed Java app does not have Python interpreter or any python package (e.x. Tensorflow)
+1. can we install python and the packages in Heroku environment?
+yes, but then the app doesn’t know how to run (bc it should run as a Java app, which contains a .jar file)
+2. Use Jython as the interpreter to run python commands; use pickle model so that no additional package needs to be installed
+the same issue that we don’t know how to include .py files in java application .jar
+3. another option: deploy the model and fetch from it
+problem: the T5 models are too large to deploy
+small T5 model
+valence model accuracy: 18.2%; results look pretty good
+arousal: 10.05%
+dominance: 13.6%
+Click on a post 
+
+

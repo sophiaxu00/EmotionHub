@@ -1,0 +1,124 @@
+body {
+    font-family: Avenir;
+    height: 100%;
+    background-image: url('../image/WechatIMG40.png');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.username {
+    color: cornflowerblue;
+    font-size: 15pt;
+}
+
+.post {
+    position: relative;
+    color: black;
+    align-content: center;
+    vertical-align: center;
+    background: rgba(255, 255, 255, 0.5);  /* 0.5 opacity */
+    overflow: hidden;
+    text-overflow: fade;
+    width: calc(20% - 4px);
+    height: 0;
+    margin: 0;
+    border: 2px solid #eeeeee;
+    padding: 20px 20px calc(20% - 20px) 20px;
+    display: inline-block;
+}
+
+.post:hover {
+    background-color: #fffbec;
+    transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+}
+
+.form-post {
+    color: #555555;
+    background: rgba(236, 229, 205, 0.9);
+}
+
+p {
+    font-size: 18pt;
+    vertical-align: center;
+}
+
+textarea {
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15pt !important;
+}
+
+button {
+    margin: 10px !important;
+    border: 2px black;
+    background-color: #c2ffc4;
+    font-size: 16pt !important;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.btn-left {
+    float: left;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-right {
+    float: right;
+    bottom: 0;
+    right: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.shrunken {
+    display: none;
+}
+
+.expanded {
+    position: fixed !important;
+    left: 20% !important;
+    right: 20% !important;
+    top: 20% !important;
+    bottom: 20% !important;
+    width: 60% !important;
+    min-height: 60% !important;
+    overflow: scroll !important;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 1);
+}
+
+.container{
+    text-align: right;
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#navbar{
+    background: rgba(255, 255, 255, 0);  /* transparent background */
+    padding-top: 15px;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #373131;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}

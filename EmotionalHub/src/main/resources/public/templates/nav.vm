@@ -1,0 +1,10 @@
+<nav id="navbar">
+    <div class="container">
+        <ul>
+            <li> <a href="/">Customize</a></li>
+            <li> <a href="/feed">TheHub</a></li>
+            <li> <a href="/activity">MySpace</a></li>
+            <li> <a href="/login">SignOut</a></li>
+        </ul>
+    </div>
+</nav>
